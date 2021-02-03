@@ -9,6 +9,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/tradle/react-native-local-auth"
   s.license      = "MIT"
 
+  # author of forked repo with podspec
+  s.author       = { "Naoufal Kadhom" => "naoufalkadhom@gmail.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/Hutchison-Technologies/react-native-local-auth.git" }
 
