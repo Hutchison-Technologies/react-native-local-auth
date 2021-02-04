@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/Hutchison-Technologies/react-native-local-auth.git" }
 
-  s.source_files  = "*.{h,m}"
+  s.source_files  = "ios/**/*.{h,m}"
+  # "*.{h,m}"
   s.dependency "React"
 end 
